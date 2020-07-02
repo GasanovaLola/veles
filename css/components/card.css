@@ -1,0 +1,24 @@
+.card {
+
+}
+.background-card {
+	position: relative;
+}
+.position-card {
+	width: 70%;
+	left: 50%;
+	margin-left: -35%;
+	position: absolute;
+	top: 43px;
+	text-align: center;
+}
+.title-card {
+    font-family: "Raleway";
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.color {
+	color: #fff;
+}

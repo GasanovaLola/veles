@@ -1,0 +1,47 @@
+.hero {
+    background-image: url(../../img/Hotel-11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 464px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+}
+.title-hero {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 50px auto 130px;
+}
+.description-hero {
+    font-family: "Raleway";
+    color: #F9F9FC;
+    max-width: 249px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+.section-hero {
+
+}
+
+@media (max-width: 480px) {
+    .hero {
+        height: 372px;
+    }
+}
+@media (min-width: 480px) and (max-width: 860px) {
+    .description-hero {
+        font-size: 14px;
+        max-width: 473px;
+    }
+}
+@media (min-width: 959px) {
+    .description-hero {
+        max-width: 40%;
+        font-size: 16px;
+    }
+}

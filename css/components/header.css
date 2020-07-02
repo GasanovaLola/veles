@@ -1,0 +1,21 @@
+.header {
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+    line-height: 36px;
+    font-size: 16.5px;
+}
+.head-title {
+	color: #000;
+	font-family: "Raleway";
+	margin-bottom: 50px;
+	margin: 0 auto;
+	margin-bottom: 35px;
+    max-width: 335px;
+}
+
+@media (max-width: 959px) {
+	.head-title {
+		margin-bottom: 0;
+	}
+}

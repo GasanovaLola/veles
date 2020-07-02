@@ -1,0 +1,35 @@
+.button {
+	background-color: #FF7931;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	border: 1.5px solid transparent;
+	font-family: Tahoma, Geneva, sans-serif;
+	padding: 8px 22px;
+	margin: 0 auto;
+	letter-spacing: 3.5px;
+}
+.button-next {
+	font-family: Tahoma, Geneva, sans-serif;
+	background-color: #000;
+	border: 1.5px solid #FF9A64;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 8px 22px;
+	color: #fff;
+	margin: 0 auto;
+	letter-spacing: 3px;
+	margin-top: 5px;
+}
+
+.button-next:hover {
+	background-color: #FF7931;
+	color: #fff;
+	border: 1.5px solid #FF9A64;
+}
+.button:hover {
+	background-color: #000;
+	color: #fff;
+	border: 1.5px solid #FF9A64;
+}

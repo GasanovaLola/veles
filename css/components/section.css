@@ -1,0 +1,77 @@
+.title-section {
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.section {
+	padding: 70px 0 0 0;
+}
+.sub-section {
+	margin-bottom: 85px;
+}
+.title {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 30px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.section-balet {
+	background-image: url(../../img/MaskGroup4.png); 
+	background-repeat: no-repeat; 
+	background-position: center; 
+	background-size: cover; 
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+    padding: 31px 0;
+    height: 100%;
+}
+.container-balet {
+	width: 80%;
+	left: 50%;
+	top: 25%;
+	margin-left: -40%;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	text-align: center;
+	vertical-align: bottom;
+}
+.vvvvv {
+	display: none;
+}
+.ttttttt {
+	display: block;
+}
+.uuuu {
+	margin: 20px -16px 0 -16px;
+}
+@media (min-width: 640px) {
+	.uuuu {
+	    margin: 20px 0 0 0;
+    }
+}
+@media (min-width: 480px) and (max-width: 680px) {
+    .sub-section {
+	    margin-bottom: 30px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+	.section {
+	    padding: 40px 0 0 0;
+    }
+    .sub-section {
+	    margin-bottom: 0;
+    }
+}
+@media (width: 320px) {
+	.vvvvv {
+		display: block;
+	}
+	.ttttttt {
+		display: none;
+	}
+}
